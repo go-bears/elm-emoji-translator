@@ -23,7 +23,7 @@ view model =
                 [ Html.Attributes.class "nav-wrapper light-blue lighten-2" ]
                 [ Html.div
                     [ Html.Attributes.class "brand-logo center" ]
-                    [ Html.text "Elmoji Translator" ]
+                    [ Html.text "Elmoji Cryptography Cypher" ]
                 ]
             ]
         , Html.section
