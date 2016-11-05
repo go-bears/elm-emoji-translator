@@ -33,7 +33,7 @@ view model =
                 [ Html.input
                     [ Html.Attributes.type' "text"
                     , Html.Attributes.class "center"
-                    , Html.Attributes.placeholder "Let's Translate!"
+                    , Html.Attributes.placeholder "Let's Code Text into Emoji!"
                     , Html.Events.onInput Update.SetCurrentText
                     ]
                     []
@@ -42,7 +42,7 @@ view model =
                 [ Html.Attributes.class "switch center" ]
                 [ Html.label
                     []
-                    [ Html.text "Translate Text"
+                    [ Html.text "Encode Text"
                     , Html.input
                         [ Html.Attributes.type' "checkbox"
                         , Html.Events.onClick Update.ToggleDirection
@@ -51,7 +51,7 @@ view model =
                     , Html.span
                         [ Html.Attributes.class "lever" ]
                         []
-                    , Html.text "Translate Emoji"
+                    , Html.text "Decode Emoji"
                     ]
                 ]
             , Html.p
