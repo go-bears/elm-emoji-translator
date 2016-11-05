@@ -1,7 +1,11 @@
 ## Elmoji Cryptography
 
 Web application for encoding secrets messages with emojis!
-built in Elm
+
+Built in Elm
+
+
+https://go-bears.github.io/elm-emoji-translator/
 
 #### Usage
 

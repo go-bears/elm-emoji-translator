@@ -92,7 +92,7 @@ var _user$project$View$view = function (model) {
 									]),
 								_elm_lang$core$Native_List.fromArray(
 									[
-										_elm_lang$html$Html$text('Elmoji Translator')
+										_elm_lang$html$Html$text('Elmoji Cryptography Cypher')
 									]))
 							]))
 					])),
